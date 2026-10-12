@@ -10,8 +10,10 @@ Run `node _tools/serve-jv.cjs` from this directory and open `http://127.0.0.1:81
 - `jv/index.html`: compatibility redirect to the root JV page.
 - `assets/argon-jv.css`: responsive styling using the existing local Figtree font and ArgonMAX logo.
 - `assets/argon-jv-config.js`: affiliate destination, review URL/text and support URL/text. An empty review/support URL shows the demo text without an inactive button.
-- `assets/argon-jv.js`: 13 module descriptions, funnel data, commission calculator, 15 swipes, copy/download actions, calendar export and mobile navigation.
+- `assets/argon-jv.js`: 13 module descriptions, funnel data, commission calculator, 10 swipes with 5 selectable subject lines each, copy/download actions, calendar export and mobile navigation.
 - `assets/jv/`: three branded SVG banners and downloadable ZIP pack. Rebuild with `python _tools/build-jv-banners.py` after editing the banner source.
+
+The email browser uses the 10 emails and all 50 subject lines from `ArgonMAX AI - Email Swipes.docx`. It preserves recipient, coupon and bonus placeholders; the personalizer inserts the affiliate link at each CTA and replaces the sign-off name. Copy exports the selected subject and email; the TXT pack includes every subject option.
 
 ## Launch details
 
@@ -25,8 +27,12 @@ Pricing, 50% commissions and the $2,000 contest are labeled proposed until confi
 
 No unverified EPC/CVR, customer proof, income claims, vendor rankings, review credentials, countdown or $197/year price increase is fabricated. Closing swipes require a confirmed close date and time.
 
+## Design
+
+The UI UX Pro Max redesign uses the blue-cyan ArgonMAX palette, the existing local Figtree font, a split hero with a launch brief, consistent outline SVG icons, a navy contest section, and a scrollable keyboard-accessible email preview. Design decisions are recorded in `design-system/argonmax-jv/MASTER.md`.
+
 ## Verification
 
-Run `node --check assets/argon-jv.js` and `node _tools/verify-jv.cjs` with the local server running on port 8140. The browser verification uses the existing local Playwright installation and Chromium executable used by other project verification scripts. It checks 1440px, 768px, 390px and 320px layouts, content, local assets, navigation, personalizing and copying swipes, downloads, the calendar date, and calculator behavior.
+Run `node --check assets/argon-jv.js` and `node _tools/verify-jv.cjs` with the local server running on port 8140. The browser verification uses the existing local Playwright installation and Chromium executable used by other project verification scripts. It checks 1440px, 1024px, 768px, 390px, 375px and 320px layouts, content, local assets, navigation, personalizing and copying swipes, downloads, the calendar date, and calculator behavior.
 
 Upload `jv.html` and the new assets (plus `jv/` if keeping the old URL redirect) to the same static hosting as the sales page to publish. No deployment settings are present in this local clone.

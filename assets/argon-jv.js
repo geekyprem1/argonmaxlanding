@@ -12,6 +12,7 @@
     if (config[`${kind}Text`]) $(`${kind}-status`).textContent = config[`${kind}Text`];
     if (validate(config[`${kind}Url`])) { $(`${kind}-link`).href = config[`${kind}Url`]; $(`${kind}-link`).hidden = false; }
   });
+  const moduleIcons = {"AI Chat":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 11a8 8 0 0 1-8 8H7l-5 3 1.5-6A8 8 0 1 1 21 11Z\"/></svg>","AI Writer":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m16 3 5 5-13 13H3v-5L16 3Zm-2 2 5 5M3 21l5-1\"/></svg>","Code Generator":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m8 5-6 7 6 7m8-14 6 7-6 7M14 3l-4 18\"/></svg>","Templates":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/></svg>","Chat with PDF":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z\"/><path d=\"M14 2v6h6M8 13h8m-8 4h6\"/></svg>","Bulk Generator":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 3 10 5-10 5L2 8l10-5Zm-9 9 9 5 9-5M3 16l9 5 9-5\"/></svg>","Creative Studio":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle cx=\"8\" cy=\"8\" r=\"1.5\"/><path d=\"m21 16-5-5L5 21\"/></svg>","Training":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path d=\"m10 8 6 4-6 4V8Z\"/></svg>","Agency":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"7\" width=\"18\" height=\"14\" rx=\"2\"/><path d=\"M8 7V3h8v4M3 12c6 4 12 4 18 0m-9 1v4\"/></svg>","Team":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M1 21v-3a6 6 0 0 1 12 0v3M17 3a4 4 0 0 1 0 8m1 3a5 5 0 0 1 5 5v2\"/></svg>","Branding":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 3 9 9-9 9-9-9 9-9Z\"/><path d=\"m8 12 4-4 4 4-4 4-4-4Z\"/></svg>","Reseller":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg>"};
   const modules = [
     ['AI Chat', 'Explore ideas, ask questions and work through your next project.', 'YOUR EVERYDAY AI ASSISTANT', '✧', 'blue'],
     ['AI Writer', 'Draft articles, sales copy, emails and scripts in one place.', 'WORDS THAT MOVE IDEAS FORWARD', '✎', 'purple'],
@@ -30,7 +31,7 @@
   modules.forEach(([name, description, caption, icon, color]) => {
     const card = document.createElement('article'); card.className = 'module-card';
     card.style.setProperty('--module-tint', colors[color][0]); card.style.setProperty('--module-accent', colors[color][1]);
-    const symbol = document.createElement('span'); symbol.className = 'module-icon'; symbol.setAttribute('aria-hidden', 'true'); symbol.textContent = icon;
+    const symbol = document.createElement('span'); symbol.className = 'module-icon'; symbol.setAttribute('aria-hidden', 'true'); symbol.innerHTML = moduleIcons[name];
     const title = document.createElement('h3'); title.textContent = name;
     const copy = document.createElement('p'); copy.textContent = description;
     const label = document.createElement('small'); label.textContent = caption;
@@ -56,7 +57,7 @@
     const half = cents => money(Math.round(cents / 2) / 100);
     const price = item.maxCents ? `${money(item.cents / 100)}–${money(item.maxCents / 100)}` : money(item.cents / 100);
     const share = item.maxCents ? `${half(item.cents)}–${half(item.maxCents)}` : half(item.cents);
-    const values = [item.step, item.featured ? `${item.name} ★` : item.name, price, item.ds ? `${item.ds[0]} · ${money(item.ds[1] / 100)}` : '—', share];
+    const values = [item.step, item.featured ? `${item.name} · Featured` : item.name, price, item.ds ? `${item.ds[0]} · ${money(item.ds[1] / 100)}` : '—', share];
     values.forEach((value, index) => { const cell = document.createElement('td'); cell.textContent = value; if (index === 1) { const note = document.createElement('small'); note.textContent = item.note; cell.append(note); } row.append(cell); });
     $('funnel-body').append(row);
   });
@@ -70,34 +71,157 @@
   };
   $('cart-value').addEventListener('input', calculate); $('buyer-count').addEventListener('input', calculate);
   const menu = document.querySelector('.menu-toggle');
+  const navLinks = [...$('main-nav').querySelectorAll('a[href^="#"]')];
+  if ('IntersectionObserver' in window) {
+    const navObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if (entry.isIntersecting) { navLinks.forEach(link => { if (link.hash === '#' + entry.target.id) link.setAttribute('aria-current', 'location'); else link.removeAttribute('aria-current'); }); } });
+    }, { rootMargin: '-15% 0px -60% 0px', threshold: 0 });
+    navLinks.forEach(link => { const section = document.querySelector(link.hash); if (section) navObserver.observe(section); });
+  }
   const closeMenu = () => { menu.setAttribute('aria-expanded', 'false'); menu.setAttribute('aria-label', 'Open navigation'); $('main-nav').classList.remove('is-open'); };
   menu.addEventListener('click', () => { const open = menu.getAttribute('aria-expanded') !== 'true'; menu.setAttribute('aria-expanded', String(open)); menu.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation'); $('main-nav').classList.toggle('is-open', open); });
   $('main-nav').querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
   document.addEventListener('keydown', event => { if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') { closeMenu(); menu.focus(); } });
   document.addEventListener('click', event => { if (!document.querySelector('.site-header').contains(event.target)) closeMenu(); });
 
+  // Email copy and all subject options from ArgonMAX AI - Email Swipes.docx.
   const swipes = [
-    { title: '01 · The first look', stage: 'PRE-LAUNCH', subject: 'Your AI tools called. They want a little less company.', body: `One tab for writing.\nAnother for images.\nAnother for code.\nAnother for the PDF you need to read.\n\nSound familiar?\n\nOn ${friendlyDate}, ArgonMAX AI is bringing a different approach: a connected workspace for content, creative assets, code and client projects.\n\nI've got a first look at the offer here:\n[AFFILIATE LINK]\n\nTake a look at the tools and see where they could fit into your work.\n\n[YOUR NAME]` },
-    { title: '02 · Save the date', stage: 'PRE-LAUNCH', subject: 'Put October 16 on your calendar', body: `An idea is easy to start.\nGetting it across five different tools? Less so.\n\nArgonMAX AI launches on ${friendlyDate}.\n\nIt brings AI chat, writing, a Build Engine, code generation, document tools and creative workflows together in one place.\n\nThe planned launch entry price is $17, with advanced upgrades available separately. Final pricing and access are shown on the offer.\n\nHere's your first look:\n[AFFILIATE LINK]\n\n[YOUR NAME]` },
-    { title: '03 · Launch-day introduction', stage: 'LAUNCH DAY', subject: 'Meet ArgonMAX AI: one workspace for your next big idea', body: `If your AI workflow involves a small army of browser tabs, this is worth a look.\n\nMeet ArgonMAX AI.\n\nOne place to explore ideas, draft content, create assets and start building your next project.\n\nThe platform brings together 13 modules, including:\n→ AI Chat and AI Writer\n→ Build Engine and Code Generator\n→ Creative Studio and Chat with PDF\n→ Bulk workflows, templates and training\n→ Agency, team, branding and reseller editions\n\nSee the product and current launch offer:\n[AFFILIATE LINK]\n\nCheck the edition details to choose the access you need.\n\n[YOUR NAME]` },
-    { title: '04 · The subscription angle', stage: 'EARLY LAUNCH', subject: 'How many tools does one idea really need?', body: `Open your browser.\nCount the AI tabs.\n\nThere's probably a writer, an image tool, a coding assistant and something for documents.\n\nEach one has its own login. Its own workflow. Often its own bill.\n\nArgonMAX AI is designed to bring those everyday creative jobs into one workspace.\n\nThat doesn't mean every person needs every module. It means you can take a closer look at one connected toolkit instead of collecting another disconnected tool.\n\nExplore the offer here:\n[AFFILIATE LINK]\n\n[YOUR NAME]` },
-    { title: '05 · Build something', stage: 'PRODUCT ANGLE', subject: 'What if your next prompt started a website?', body: `A headline is a good start.\nA page you can build on is even better.\n\nThe ArgonMAX AI Build Engine is designed for website, funnel, app and game starting points.\n\nTell it what you have in mind. Explore the output. Refine it for your project.\n\nIf you're a freelancer, creator or business owner, that's an interesting way to get past the blank page.\n\nSee the Build Engine and the editions available:\n[AFFILIATE LINK]\n\nAlways review and test generated work before publishing or delivering it.\n\n[YOUR NAME]` },
-    { title: '06 · For content creators', stage: 'AUDIENCE ANGLE', subject: 'Your next campaign could start in one place', body: `A blog post.\nA launch email.\nA short video script.\nA week's worth of ideas.\n\nContent comes in a lot of formats. Your workflow doesn't have to be scattered across quite so many places.\n\nArgonMAX AI brings AI Writer, Templates and Bulk Generator workflows into the same platform.\n\nUse it to get a first draft moving, then add your own examples, experience and voice.\n\nExplore the content toolkit:\n[AFFILIATE LINK]\n\nCheck the selected edition for usage limits and bulk access.\n\n[YOUR NAME]` },
-    { title: '07 · For freelancers & agencies', stage: 'AUDIENCE ANGLE', subject: 'A workspace with room for your client projects', body: `Client work means keeping a lot of things moving.\n\nThe copy. The creative. The website idea. The next revision.\n\nArgonMAX AI pairs its creative tools with planned agency, team and branding editions.\n\nIf you work with clients, take a look at how those editions could fit into your process.\n\nExplore the agency options:\n[AFFILIATE LINK]\n\nAgency, seats and custom branding depend on the purchased edition. Choose the setup that fits your actual workload.\n\n[YOUR NAME]` },
-    { title: '08 · The document workflow', stage: 'PRODUCT ANGLE', subject: 'That PDF has answers. Ask it a question.', body: `You know the document has the answer.\nYou just don't know which page it's on.\n\nArgonMAX AI includes a planned Chat with PDF workflow for exploring documents, finding key points and asking questions.\n\nIt sits alongside the writing and chat tools, so your research can become a starting point for your next piece of work.\n\nTake a closer look:\n[AFFILIATE LINK]\n\nConfirm important details against the original document and check the edition's document limits.\n\n[YOUR NAME]` },
-    { title: '09 · The creative studio', stage: 'PRODUCT ANGLE', subject: 'Give that idea something people can see', body: `Some ideas need more than a paragraph.\n\nA visual direction. An image concept. An asset for the next campaign.\n\nArgonMAX AI Creative Studio is part of a workspace built to connect your content and creative workflow.\n\nStart with the idea, explore the tools, and make the result your own.\n\nSee the Creative Studio offer:\n[AFFILIATE LINK]\n\nImage and video features, output allowances and premium options vary by edition.\n\n[YOUR NAME]` },
-    { title: '10 · The objection email', stage: 'MID-LAUNCH', subject: 'Already have an AI tool? Here is what to look at.', body: `You may already have an AI tool you like.\n\nSo the question is simple:\n\nWould a connected workspace make your process easier?\n\nThat's what I'd look for in ArgonMAX AI. Not just another chat box, but writing, building, creative and document workflows in the same place.\n\nCompare the tools with what you already use.\nCheck the edition details.\nChoose based on the work you actually do.\n\nHere's the product overview:\n[AFFILIATE LINK]\n\n[YOUR NAME]` },
-    { title: '11 · Choose your edition', stage: 'MID-LAUNCH', subject: 'Start with what you need. Keep room to grow.', body: `A solo creator doesn't need the same setup as an agency.\n\nThat's why the ArgonMAX AI launch plan includes an entry offer and separate upgrades for unlimited writing, AI image and video, done-for-you packs, automation and bulk, traffic and leads, agency, reseller, whitelabel, enterprise teams and VIP coaching.\n\nStart by asking what you want to make.\nThen check which edition includes the tools and allowances you need.\n\nSee the offer breakdown:\n[AFFILIATE LINK]\n\nFinal prices and entitlements are displayed on the offer.\n\n[YOUR NAME]` },
-    { title: '12 · Show the product', stage: 'PROOF & REVIEW', subject: 'Take a closer look before you decide', body: `Words can explain an idea.\nA product walkthrough helps you assess it.\n\nBefore you decide about ArgonMAX AI, take a closer look at the workspace and the tools on offer.\n\nLook for the use cases that matter to you:\n→ Can it help you start your next project?\n→ Does the workflow make sense for your day?\n→ Does the edition include what you need?\n\nExplore the product here:\n[AFFILIATE LINK]\n\n[YOUR NAME]` },
-    { title: '13 · The final 48 hours', stage: 'CLOSING DRAFT · CONFIRM DEADLINE', subject: 'Your ArgonMAX AI launch reminder', body: `A quick reminder if ArgonMAX AI is on your shortlist.\n\nThe confirmed launch-offer deadline is:\n[CLOSE DATE & TIME — INCLUDING TIMEZONE]\n\nIf the workspace looks like a fit, now is a good time to check the final offer, review the edition details and make your decision.\n\nSee the current offer:\n[AFFILIATE LINK]\n\nOnly use this reminder after the vendor confirms the deadline.\n\n[YOUR NAME]` },
-    { title: '14 · The final day', stage: 'CLOSING DRAFT · CONFIRM DEADLINE', subject: 'One last look at the ArgonMAX AI launch offer', body: `Still thinking about a simpler creative workflow?\n\nThe ArgonMAX AI launch offer is scheduled to end at:\n[CLOSE DATE & TIME — INCLUDING TIMEZONE]\n\nTake one last look at the tools, the pricing and the edition that fits your work.\n\nYour next idea might need a writer, a builder, a creative toolkit or a place to explore a document. This workspace brings those possibilities together.\n\nReview the current offer here:\n[AFFILIATE LINK]\n\nSend this email only on the confirmed final day.\n\n[YOUR NAME]` },
-    { title: '15 · The final reminder', stage: 'CLOSING DRAFT · CONFIRM DEADLINE', subject: 'Final reminder: review the ArgonMAX AI offer', body: `This is my final reminder about the ArgonMAX AI launch offer.\n\nThe confirmed deadline is:\n[CLOSE DATE & TIME — INCLUDING TIMEZONE]\n\nIf you've reviewed the product and it fits your plans, here's the link:\n[AFFILIATE LINK]\n\nCheck the current terms and choose the edition you need.\n\nThanks for taking a look.\n\n[YOUR NAME]\n\nUse this draft only after the vendor confirms the close. Do not add an unverified price increase or deadline.` }
-  ];
+  {
+    "title": "01 · Live now",
+    "stage": "LAUNCH DAY",
+    "subjects": [
+      "🚀 LIVE NOW: Create Anything With Gemini — Unlimited For Life",
+      "♾️ Gemini Is Now Unlimited… For LIFE",
+      "🤯 Unlimited Gemini For Life? Yes, It’s Finally Here",
+      "♾️ You Can Now Create With Gemini… Without Limits",
+      "🔥 Argonmax AI Is LIVE — And This Is BIG"
+    ],
+    "body": "Hello {{ First Name }},\n\nOkay, this is something you’re definitely going to want to check out.\n\nArgonmax AI is now LIVE. 🔥\n\nAnd the best part?\n\nYou can now use the power of Gemini to create pretty much anything you want — unlimited, for life. ♾️\n\nNo worrying about running out of credits.\nNo constantly checking your usage.\nNo jumping between different Gemini subscriptions.\n\n👉 Check Out Argonmax AI Now\n\nYou get access to the latest Gemini models, including:\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6\n⚡ All previous Gemini models\n\nSo whether you want to build a website, create an app, make cinematic videos, design images, write an ebook, build an AI game or create a sales funnel…\n\nYou can just tell Gemini what you want and start creating. 🚀\n\nAnd there’s even more…\n\n🎁 You also get Claude Opus 5.5, ClaudeFable 5.1 & GPT-6 Astra F’REE.\n\nBasically, you’re getting a whole lot of AI power in one place.\n\nUnlimited.\nFor life.\n\nClick Here to Learn More Details About Argonmax AI >>\n\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "02 · Unlimited for life",
+    "stage": "UNLIMITED ACCESS",
+    "subjects": [
+      "🤯 Wait… Unlimited Gemini For LIFE?!",
+      "🔥 Gemini Without Limits Is Finally Here",
+      "♾️ Gemini. Unlimited. For Life.",
+      "🚨 Unlimited Gemini For Life Is HERE!",
+      "🔥 Unlimited Gemini Access — For Life"
+    ],
+    "body": "Hello {{ First Name }},\n\nUnlimited Gemini. For Life. ♾️\n\nYep… you read that right. 👀\n\nCheck Out Argonmax AI Now ->\n\nWith Argonmax AI, you can unlock the power of Gemini’s most powerful models and keep using them without worrying about credits or monthly limits.\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6 + previous models\n\nJust UNLIMITED Gemini access — FOR LIFE. ♾️🔥\n\nAnd you can use it to create:\n\n🌐 Websites & Funnels\n🎬 Cinematic Videos & AI Movies\n💻 Web Apps & AI Games\n🎨 Images & Designs\n📚 Ebooks & Digital Products\n📊 Presentations & more\n\nPlus, Claude Opus 5.5 + ClaudeFable 5.1 + GPT-6 Astra FREE. 🎁\n\nClick Here to Learn More Details About Argonmax AI >>\n\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "03 · Create without limits",
+    "stage": "CREATE WITHOUT LIMITS",
+    "subjects": [
+      "👀 This Is What Unlimited AI Actually Looks Like…",
+      "🔥 Wait… You Can Really Create Without Limits?",
+      "🚀 You Won’t Believe What Argonmax AI Lets You Create",
+      "🤯 No Credits Left? You Need To See This…",
+      "♾️ Unlimited AI For Life? Here’s The Catch…"
+    ],
+    "body": "Hello {{ First Name }},\n\nI know you already have a LOT of AI tools. 😅\n\nBut there’s one problem they ALL seem to have…\n\nLIMITS. 😩\n\nYou’re creating something…\n\nAnd suddenly — credits gone. 🤦‍♂️\n\nIt’s frustrating. And honestly, we ALL deal with it.\n\nSo I found something for you…\n\n🔥 Check Out Argonmax AI Now ->\n\nIt gives you Gemini access for a LIFETIME. ♾️\n\nAnd the best part?\n\nCREATE. WHATEVER. YOU WANT.\n\n🌐 Websites\n🎬 Videos\n🎨 Images\n💻 Apps\n🎮 Games\n📚 Ebooks & more\n\nUnlimited. 🔥\n\nPlus, you get Claude Opus 5.5 + ClaudeFable 5.1 + GPT-6 Astra F’REE. 🎁\n\nClick Here to Learn More Details About Argonmax AI >>\n\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "04 · Stop renting your AI",
+    "stage": "LIFETIME ACCESS",
+    "subjects": [
+      "🔥 STOP RENTING YOUR AI.",
+      "😩 Your AI Gets Better. Your Bill Gets Bigger.",
+      "🚨 How Long Are You Going To Keep Paying Monthly?",
+      "♾️ What If You Could Keep Your AI For LIFE?",
+      "🤯 Stop Paying. Start Owning Your AI."
+    ],
+    "body": "Hello {{ First Name }},\n\nThe AI keeps getting better.\n\nBut your subscription?\n\nKeeps charging you. 😩\n\nEvery. Single. Month.\n\nAnd the moment you stop paying…\n\nYour access stops too.\n\n🔥 STOP RENTING YOUR AI.\n\nThat’s why Argonmax AI caught my attention.\n\nCheck it Now ->\n\nIt gives you UNLIMITED Gemini access — FOR LIFE. ♾️\n\nIncluding:\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6\n⚡ Previous Gemini models\n\nNo monthly fees.\nNo credit limits.\nNo constant subscription payments.\n\nAnd you also get:\n\n🎁 Claude Opus 5.5\n🎁 ClaudeFable 5.1\n🎁 GPT-6 Astra\n\nOne access. Unlimited use. For life. ♾️🔥\n\nClick Here to Learn More Details About Argonmax AI >>\n\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "05 · The AI race",
+    "stage": "MODEL LINEUP",
+    "subjects": [
+      "🚨 The AI Race Just Changed AGAIN…",
+      "🤯 Google Just Unleashed Gemini 4 Argon",
+      "🔥 Gemini 4 Argon Is Here…",
+      "👀 Google Just Made A BIG Move",
+      "♾️ The New Gemini — Unlimited For Life?"
+    ],
+    "body": "Hello {{ First Name }},\n\nTHE AI RACE JUST CHANGED AGAIN. 🚨\n\nChatGPT is evolving.\nClaude is evolving.\nGrok is evolving.\n\nAnd now…\n\nGoogle has pushed Gemini into a whole new generation with Gemini 4 Argon. 🔥\n\nAnd I’ve got something pretty exciting for you…\n\n🔥 Check Out Argonmax AI Now ->\n\nIt gives you UNLIMITED & LIFETIME access to Gemini’s powerful models:\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6\n⚡ All Previous Gemini Models\n\nNo credit limits.\nNo monthly fees.\nNo worrying about running out. ♾️\n\nAnd you’re not done yet…\n\n🎁 Claude Opus 5.5\n🎁 ClaudeFable 5.1\n🎁 GPT-6 Astra\nALL included as bonuses. 🔥\n\nGoogle is pushing Gemini into its next era.\n\nNow you can get in — Unlimited & For Life. ♾️\n\nClick Here to Learn More Details About Argonmax AI >>\n\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "06 · AI subscription costs",
+    "stage": "SUBSCRIPTION SAVINGS",
+    "subjects": [
+      "💸 Add Up Your AI Subscriptions. Seriously.",
+      "😳 $20 Here. $30 There. It Adds Up.",
+      "🤯 How Many AI Subscriptions Are You Paying For?",
+      "🚨 Your AI Stack Is Costing More Than You Think",
+      "💰 One Less AI Subscription To Pay Every Month"
+    ],
+    "body": "Hello {{ First Name }},\n\nTry something for me… 👀\n\nOpen your bank statement.\n\nNow look at everything you’re paying for AI each month.\n\nOne for writing.\nOne for images.\nOne for video.\nAnother one you subscribed to just to try. 😅\n\nEach one doesn’t look like much…\n\nBut together?\n\nThat monthly bill adds up FAST. 💸\n\nAnd that’s exactly what Argonmax AI is here to change.\n\nCheck It Now ->\n\nYou get UNLIMITED, LIFETIME access to Gemini’s powerful AI models. ♾️\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6\n⚡ Previous Gemini models\n\nNo monthly renewal.\nNo credit limits.\nNo subscription stack.\n\nAnd you also get 3 powerful AI models FREE:\n\n🎁 Claude Opus 5.5\n🎁 ClaudeFable 5.1\n🎁 GPT-6 Astra\n\nOne payment. Unlimited Gemini. For life. ♾️\n\nMaybe it’s time to stop stacking AI subscriptions. 🔥\n\nClick Here to Learn More Details About Argonmax AI >>\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "07 · No credit limits",
+    "stage": "NO CREDIT LIMITS",
+    "subjects": [
+      "🚨 “You’ve Run Out Of Credits.”",
+      "😩 Ever Hit An AI Limit Mid-Project?",
+      "🔥 No Credit Counters. Ever.",
+      "🤯 Your AI Just Ran Out… Again?",
+      "♾️ What If AI Never Said “You’ve Hit Your Limit”?"
+    ],
+    "body": "Hello {{ First Name }},\n\nYou’re right in the middle of something good…\n\nEverything is going perfectly.\n\nAnd then suddenly:\n\n“You’ve reached your limit.” 😩\n\nSeriously?\n\nNow you either wait… or pay more. 💸\n\nAnd that’s one of the most frustrating things about AI subscriptions.\nIt’s not just the monthly fee.\n\nIt’s the credits. The caps. The limits.\n\nThat’s why Argonmax AI caught my attention. 👀\n\nCheck it Now ->\n\nYou get LIFETIME + UNLIMITED access to powerful Gemini models:\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6\n⚡ Previous Gemini models\n\nNo credit limits.\nNo monthly fees.\nNo paying extra when you actually want to use it. ♾️\n\nPlus, you get:\n\n🎁 Claude Opus 5.5\n🎁 ClaudeFable 5.1\n🎁 GPT-6 Astra\n\nUse Gemini as much as you want. For life. 🔥\n\nClick Here to Learn More Details About Argonmax AI >>\n\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "08 · A second look",
+    "stage": "FOLLOW-UP",
+    "subjects": [
+      "👀 Did You See Argonmax AI Yet?",
+      "🔥 I Didn’t Want You To Miss This One…",
+      "♾️ Your Lifetime Gemini Access Is Waiting",
+      "🤯 This Gemini Deal Deserves A Second Look",
+      "🚀 Still Thinking About Argonmax AI?"
+    ],
+    "body": "Hello {{ First Name }},\n\nJust wanted to put Argonmax AI back on your radar. 👀\n\nBecause honestly, this is one of those AI tools you’ll want to know about.\n\nCheck it Now ->\n\nYou’re getting Gemini’s most powerful models — UNLIMITED & FOR LIFE. ♾️🔥\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6\n⚡ Previous Gemini models\n\nAnd yes…\n\nUnlimited means unlimited. 😎\n\nNo monthly fees.\nNo credit limits.\nNo juggling multiple subscriptions.\n\nPlus, you get Claude Opus 5.5 + ClaudeFable 5.1 + GPT-6 Astra FREE. 🎁\n\nIf you’ve been meaning to check it out…\n\nThis is your reminder. 😉\n\nClick Here to Learn More Details About Argonmax AI >>\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "09 · One more look",
+    "stage": "FOLLOW-UP",
+    "subjects": [
+      "👀 One More Look At Argonmax AI…",
+      "🔥 This One Is Still On My Mind…",
+      "🤯 Argonmax AI Is A BIG One…",
+      "♾️ The “For Life” Part Is What Got Me…",
+      "🚀 You Might Want To See This…"
+    ],
+    "body": "Hello {{ First Name }},\n\nI had to bring this one up again. 👀\n\nBecause getting access to powerful AI is one thing…\n\nGetting it UNLIMITED & FOR LIFE is another. ♾️\n\nThat’s what makes Argonmax AI so interesting\n.\nCheck It Now ->\nYou get:\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6\n⚡ Previous Gemini models\n\nFor life.\n\nAnd there’s more waiting inside… 👇\n\n🎁 Claude Opus 5.5\n🎁 ClaudeFable 5.1\n🎁 GPT-6 Astra\n\nNo need to keep adding another AI subscription to your list.\n\nArgonmax AI gives you one powerful place to work with these models. 🔥\n\nClick Here to Learn More Details About Argonmax AI >>\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  },
+  {
+    "title": "10 · Last call",
+    "stage": "FINAL REMINDER",
+    "subjects": [
+      "🚨 LAST CALL: Argonmax AI Won’t Wait Forever",
+      "⏰ Final Reminder — Don’t Miss Argonmax AI",
+      "🔥 This Is Your Last Chance To Get Argonmax AI",
+      "🚨 Before You Miss This…",
+      "⚠️ Closing Soon: Unlimited Gemini For Life"
+    ],
+    "body": "Hello {{ First Name }},\n\nOkay, this is the final reminder. ⏰\n\nI’ve told you about Argonmax AI…\n\nNow it’s simply up to you.\n\nBecause getting UNLIMITED Gemini access FOR LIFE isn’t something I’d casually pass on. ♾️🔥\n\nGrab It Now ->\n\nYou get:\n\n⚡ Gemini 4.0 Argon\n⚡ Gemini 3.8 Flash\n⚡ Gemini 3.7 Flash\n⚡ Gemini 3.6\n⚡ Previous Gemini models\n\nPlus:\n\n🎁 Claude Opus 5.5\n🎁 ClaudeFable 5.1\n🎁 GPT-6 Astra\n\nOne access. No monthly fees. Unlimited use. For life.\n\nBut this offer won’t stay open forever. 🚨\n\nIf you’ve been thinking about getting it…\n\nNow is the time.\n\nClick Here to Learn More Details About Argonmax AI >>\n\nDiscount Coupon -\n\n& Here’s The Best Part…\n\nTo make this deal irresistible, I’m adding Incredible Bonuses that you won’t find anywhere else:\n\nBonus #1 –\nBonus #2 –\nBonus #3 –\nBonus #4 –\nBonus #5 –\n\n👉Get Instant Access of Argonmax AI + All Bonuses Right Now >>\n\nDiscount Coupon -\nCheers,\nName"
+  }
+];
   swipes.forEach((swipe, index) => { const option = document.createElement('option'); option.value = String(index); option.textContent = swipe.title; $('swipe-select').append(option); });
-  const personalize = value => value.replaceAll('[AFFILIATE LINK]', $('affiliate-url').value.trim() || '[YOUR APPROVED AFFILIATE LINK]').replaceAll('[YOUR NAME]', $('sender-name').value.trim() || '[YOUR NAME]');
+  const personalize = value => value
+    .replace(/^(.*(?:->|>>|Check Out Argonmax AI Now))[ \t]*$/gmi, '$1\n[AFFILIATE LINK]')
+    .replace(/Name\s*$/, '[YOUR NAME]')
+    .replaceAll('[AFFILIATE LINK]', () => $('affiliate-url').value.trim() || '[YOUR APPROVED AFFILIATE LINK]')
+    .replaceAll('[YOUR NAME]', () => $('sender-name').value.trim() || '[YOUR NAME]');
   const selectedSwipe = () => swipes[Number($('swipe-select').value)] || swipes[0];
-  const renderSwipe = () => { const swipe = selectedSwipe(); $('swipe-stage').textContent = swipe.stage; $('swipe-subject').textContent = swipe.subject; $('swipe-body').textContent = personalize(swipe.body); $('swipe-error').hidden = !$('affiliate-url').value.trim() || validWebUrl($('affiliate-url').value.trim()); };
-  $('swipe-select').addEventListener('change', renderSwipe); $('affiliate-url').addEventListener('input', renderSwipe); $('sender-name').addEventListener('input', renderSwipe); renderSwipe();
+  const selectedSubject = () => selectedSwipe().subjects[Number($('swipe-subject-select').value)] || selectedSwipe().subjects[0];
+  const renderSwipe = () => { const swipe = selectedSwipe(); $('swipe-stage').textContent = swipe.stage; $('swipe-subject').textContent = selectedSubject(); $('swipe-body').textContent = personalize(swipe.body); $('swipe-error').hidden = !$('affiliate-url').value.trim() || validWebUrl($('affiliate-url').value.trim()); };
+  const renderSubjects = () => {
+    $('swipe-subject-select').replaceChildren();
+    selectedSwipe().subjects.forEach((subject, index) => { const option = document.createElement('option'); option.value = String(index); option.textContent = subject; $('swipe-subject-select').append(option); });
+    renderSwipe();
+  };
+  $('swipe-select').addEventListener('change', renderSubjects); $('swipe-subject-select').addEventListener('change', renderSwipe); $('affiliate-url').addEventListener('input', renderSwipe); $('sender-name').addEventListener('input', renderSwipe); renderSubjects();
   let toastTimer;
   const toast = message => { $('toast').textContent = message; $('toast').classList.add('visible'); clearTimeout(toastTimer); toastTimer = setTimeout(() => $('toast').classList.remove('visible'), 3500); };
   const canExport = () => { if ($('affiliate-url').value.trim() && !validWebUrl($('affiliate-url').value.trim())) { $('swipe-error').hidden = false; $('affiliate-url').focus(); toast('Use a complete http:// or https:// affiliate link.'); return false; } return true; };
@@ -106,12 +230,12 @@
     const area = document.createElement('textarea'); area.value = text; area.style.cssText = 'position:fixed;top:0;left:0;opacity:0;'; area.setAttribute('aria-label', 'Email text to copy'); document.body.append(area); area.focus(); area.select();
     let copied = false; try { copied = document.execCommand('copy'); } catch { copied = false; } area.remove(); $('copy-swipe').focus(); return copied;
   };
-  $('copy-swipe').addEventListener('click', async () => { if (!canExport()) return; const swipe = selectedSwipe(); const copied = await copyText(`Subject: ${swipe.subject}\n\n${personalize(swipe.body)}`); toast(copied ? 'Email copied. Review and personalize before sending.' : 'Copy unavailable. Select the email text to copy it.'); });
+  $('copy-swipe').addEventListener('click', async () => { if (!canExport()) return; const swipe = selectedSwipe(); const copied = await copyText(`Subject: ${selectedSubject()}\n\n${personalize(swipe.body)}`); toast(copied ? 'Email copied. Review and personalize before sending.' : 'Copy unavailable. Select the email text to copy it.'); });
   const download = (filename, content, type = 'text/plain;charset=utf-8') => { const url = URL.createObjectURL(new Blob([content], { type })); const link = document.createElement('a'); link.href = url; link.download = filename; document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); };
   $('download-swipes').addEventListener('click', () => {
     if (!canExport()) return;
-    const intro = `ARGONMAX AI — 15 EMAIL SWIPES\nLaunch: ${friendlyDate}\n\nDraft promotional copy. Verify final pricing, product capabilities and deadlines before sending. Insert your approved tracking link. Closing emails require a confirmed deadline; do not send placeholders. Include any affiliate disclosures required by your platform and audience.\n\n`;
-    download('argonmax-ai-email-swipes.txt', intro + swipes.map(swipe => `${'='.repeat(65)}\n${swipe.title}\n${swipe.stage}\n\nSubject: ${swipe.subject}\n\n${personalize(swipe.body)}\n`).join('\n')); toast('Your 15-email swipe pack is ready.');
+    const intro = `ARGONMAX AI — ${swipes.length} EMAIL SWIPES · 5 SUBJECT LINES EACH\nLaunch: ${friendlyDate}\n\nDraft promotional copy. Verify final pricing, product capabilities and deadlines before sending. Insert your approved tracking link. Closing emails require a confirmed deadline; do not send placeholders. Include any affiliate disclosures required by your platform and audience.\n\n`;
+    download('argonmax-ai-email-swipes.txt', intro + swipes.map(swipe => `${'='.repeat(65)}\n${swipe.title}\n${swipe.stage}\n\nSUBJECT LINES\n${swipe.subjects.map((subject, index) => `${index + 1}. ${subject}`).join('\n')}\n\nMAIL BODY\n${personalize(swipe.body)}\n`).join('\n')); toast(`Your ${swipes.length}-email swipe pack is ready.`);
   });
   $('download-guide').addEventListener('click', () => {
     const guide = `# ArgonMAX AI — JV Quick Guide\n\nLaunch date: ${friendlyDate}\nExact opening time / timezone / close: to be confirmed.\nAffiliate platform: ${validWebUrl(config.affiliateUrl) ? config.affiliateUrl : 'https://launchpadjv.com/'}\nReview access: ${config.reviewText || 'Coming soon'}\nSupport: ${config.supportText || 'Demo contact — coming soon'}\n\n## The angle\nA connected AI workspace for content, code, creative assets and client work. Lead with less tool switching and the practical use case your audience needs.\n\n## 13 platform modules\nBuild Engine — Sites, funnels, apps and games starting points.\n${modules.map(m => `${m[0]} — ${m[1]}`).join('\n')}\n\n## Proposed funnel — 50% commissions\n${funnel.map(item => `${item.step} | ${item.name} | ${item.maxCents ? `${money(item.cents / 100)}–${money(item.maxCents / 100)}` : money(item.cents / 100)} | ${item.maxCents ? `${money(Math.round(item.cents / 2) / 100)}–${money(Math.round(item.maxCents / 2) / 100)}` : money(Math.round(item.cents / 2) / 100)}${item.ds ? ` | Downsell: ${item.ds[0]} ${money(item.ds[1] / 100)}` : ''}${item.bundle ? ' | Alternative to buying individually, excluded from main total' : ''}`).join('\n')}\n\nMain-funnel total (front end through OTO 10): ${money(cartCents / 100)}.\nIllustrative commission: ${money(Math.round(cartCents / 2) / 100)}.\nAssumes all main offers are purchased; not an earnings forecast. Actual commissions depend on purchases, refunds and final platform terms.\n\n## Proposed $2,000 contest\nOpening, first 72 hours: 1st $1,000; 2nd $400; 3rd $200. No minimums proposed.\nClosing, final 48 hours: 1st $300; 2nd $100.\nFinal eligibility, sales counting, ties, payout dates and precise timing must be confirmed.\n\n## Promotion checklist\n- Review the product and confirm edition entitlements.\n- Get the approved affiliate tracking link from Launchpad JV.\n- Confirm final commissions, pricing, contest rules and deadlines.\n- Choose an email angle for your audience.\n- Personalize the swipes and add your link.\n- Add your own product experience and disclosure.\n- Schedule opening, review and closing emails for confirmed times.\n\nNo verified EPC or conversion results are provided. Support and review details are demo placeholders until updated.\n`;
