@@ -16,7 +16,7 @@ Direction: a light SaaS partner hub with an editorial split hero, a navy launch 
 
 ## Layout and type
 
-1248px content maximum. Desktop gutters 48px, tablet 32px, phone 20px. Section rhythm 104/80/64px. Body 16px; secondary body 14-16px; fine print 11-13px. Headings use the local Figtree variable font with tighter tracking. Primary body text passes 4.5:1 contrast. Navy and cyan distinguish the launch brief, contest, and closing CTA.
+1248px content maximum. Desktop gutters 48px, tablet 32px, phone 20px. Section rhythm 104/80/64px. Body 18px on desktop and 17px on phones, with weight 450 and 1.7–1.75 line height. Secondary body 16–18px; fine print 14px; controls and labels 16px. Headings use the local Figtree variable font with weight 750–800 and modest tracking. On phones, module and audience cards use one column so larger text has room. Primary body text passes 4.5:1 contrast. Navy and cyan distinguish the launch brief, contest, and closing CTA.
 
 ## Components
 

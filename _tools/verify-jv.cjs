@@ -79,7 +79,11 @@ const path = require('node:path');
     };
     const swipePack = await getDownload('#download-swipes'); assert.match(swipePack.name, /email-swipes\.txt$/);
     assert.equal((swipePack.content.toString().match(/^SUBJECT LINES$/gm) || []).length, 10); assert.equal((swipePack.content.toString().match(/^[1-5]\. /gm) || []).length, 50); assert.match(swipePack.content.toString(), /Demo Partner/);
-    const guide = await getDownload('#download-guide'); assert.match(guide.content.toString(), /\$898\.95/); assert.match(guide.content.toString(), /October 16, 2026/);
+    for (const [selector, url] of [["#jv-doc-link","https://docs.google.com/document/d/1Zv9Lti6q1JvaCUUrHNgYMstSlfPz3D4EiffD9Zr4Zag/edit?usp=sharing"],["#email-swipes-doc","https://docs.google.com/document/d/1KBBa7a-1HLerGqF4ldgltaSIxMdxojrHMY3G62gQr-Y/edit?usp=sharing"]]) {
+      assert.equal(await page.locator(selector).getAttribute('href'), url);
+      assert.equal(await page.locator(selector).getAttribute('target'), '_blank');
+      assert.match(await page.locator(selector).getAttribute('rel'), /noopener/);
+    }
     const banners = await getDownload('#download-banners'); assert.equal(banners.content.subarray(0, 2).toString(), 'PK');
     const calendar = await getDownload('#save-date'); const ics = calendar.content.toString();
     assert.match(ics, /DTSTART;VALUE=DATE:20261016/); assert.match(ics, /DTEND;VALUE=DATE:20261017/); assert.ok(ics.includes('\r\n'));
@@ -101,6 +105,6 @@ const path = require('node:path');
     }
     console.log('PASS redesign: active navigation, keyboard email scrolling, 44px targets, phone and landscape layouts');
     assert.deepEqual(errors, []); assert.deepEqual(failedAssets, []);
-    console.log('PASS interactions: calculator, personalization, safe text, clipboard, validation, 4 downloads, calendar dates, FAQ, alias redirect, reduced motion; no runtime errors');
+    console.log('PASS interactions: calculator, personalization, safe text, clipboard, validation, 3 downloads, Google Docs links, calendar dates, FAQ, alias redirect, reduced motion; no runtime errors');
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });
