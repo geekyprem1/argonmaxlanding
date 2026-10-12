@@ -1,0 +1,71 @@
+.forgeContainer {
+    text-align: center;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 350px;
+    font-family: sans-serif;
+}
+
+.forgeContainer[data-theme=light] {
+    color: #ffffff;
+}
+
+.forgeContainer .price-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.forgeContainer .price-wrap span:first-child {
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.3), 0px -6px 10px rgba(0,0,0,0.3);
+    text-decoration: line-through;
+    /* color: #fff; */
+}
+
+.forgeContainer .price-wrap span:last-child {
+    /* color: #ffffff; */
+    font-weight: 600;
+}
+
+
+.forgeContainer .btn-forge {
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #40097C;
+    border: 2px solid #40097C;
+    border-radius: 22px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    min-width: 100%;
+}
+
+.forgeContainer .btn-forge-continue {
+    background: transparent;
+    margin-top: 6px;
+    font-weight: 400;
+    color: #40097C;
+}
+
+.forgeContainer .tagline {
+    font-size: 14px;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.forgeContainer .accepted-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    gap: 5px;
+}
+
+.forgeContainer .accepted-cards img {
+    width: 40px;
+}

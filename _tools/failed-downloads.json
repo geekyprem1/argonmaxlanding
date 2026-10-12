@@ -1,0 +1,10 @@
+[
+ {
+  "url": "https://fonts.googleapis.com",
+  "error": "Error: HTTP 404"
+ },
+ {
+  "url": "https://fonts.gstatic.com",
+  "error": "Error: HTTP 404"
+ }
+]

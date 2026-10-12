@@ -1,0 +1,93 @@
+=== LAST 3000 chars of file ===
+54-31e7-23ea-cca2-9be054daf953":["box1331c1eb-cb43-07c8-3b52-c5c65620954c"],"box106acfc1-2a5f-81e7-c4e6-69fd15d55bf6":["box1331c1eb-cb43-07c8-3b52-c5c65620954c"],"box86b183ee-79e8-087c-839e-48f922ce87b1":["box1331c1eb-cb43-07c8-3b52-c5c65620954c","box106acfc1-2a5f-81e7-c4e6-69fd15d55bf6"],"box97a4cd2d-496a-a310-b90c-58cf8e1cc0fc":["box1331c1eb-cb43-07c8-3b52-c5c65620954c","box106acfc1-2a5f-81e7-c4e6-69fd15d55bf6"],"box695f9993-fa90-54f1-ed48-52fdc78049a0":[],"boxe895952a-8989-59fe-7ec9-9c3f83fce0e9":[],"boxd33c0c28-fcba-a68b-3942-f22d88e4769a":["box1331c1eb-cb43-07c8-3b52-c5c65620954c"]};var $elementBody=$(parentContainerSelector).find(elementBodySelector);$elementBody.on('mouseenter',function(event){var containers=MobileDetector.isMobile()?mobileContainers:desktopContainers;var id=findContainingId(event.currentTarget);addHover(containers,id)});$elementBody.on('mouseleave',function(event){var containers=MobileDetector.isMobile()?mobileContainers:desktopContainers;var id=findContainingId(event.currentTarget);removeHover(containers,id)});function addHover(containers,id){$('#'+id+' .cvt-1568371626-element-body, #'+id+' .hoverable').addClass('hover');var containerIds=containers[id];for(var i=0;i<containerIds.length;++i){addHover(containers,containerIds[i])}}
+function removeHover(containers,id){$('#'+id+' .cvt-1568371626-element-body, #'+id+' .hoverable').removeClass('hover');var containerIds=containers[id];for(var i=0;i<containerIds.length;++i){addHover(containers,containerIds[i])}}
+function findContainingId(element){element=element.parentElement;while(!element.id&&element.parentElement){element=element.parentElement}
+return element.id}})</script><script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Disable right-click ONLY on images
+  document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable dragging images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Make all images non-draggable
+  document.querySelectorAll('img').forEach(function(img) {
+    img.setAttribute('draggable', 'false');
+  });
+
+});
+</script>
+
+<style>
+/* Prevent image dragging and mobile long-press actions */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+
+  -webkit-touch-callout: none;
+}
+</style><style>
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.08);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.12);
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#box8cc643e6-22f9-5be2-b928-4e2eea5826e3 {
+  animation: heartbeat 2.6s ease-in-out infinite;
+  transform-origin: center;
+  will-change: transform;
+}
+</style><script></script><script>document.addEventListener("DOMContentLoaded",function(){yall()})</script></body></html>
+
+
+=== 'cdn.min.js' occurrences ===
+0
+
+=== 'convertri-deferred' occurrences ===
+2
+
+=== background-image:url( count ===
+1205
+unique bg urls: 523
+https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?w=22&h=22&fit=clip&auto=compress,format
+https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fe589886d4c4b47e3b0065c94b9aedc71ff188ee4%2FUntitled%20design%20%2814%29.png?w=22&h=22&fit=clip&auto=compress,format
+https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2F3c7c0427fa71f6591a1fc0ebd53c9f477b6c1d60%2Ftickmark.png?w=22&h=22&fit=clip&auto=compress,format
+https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd105a9c0c38004bdc35f5ae0776e5fb7863401b5%2F796477_cross_delete_stop_x_icon.png?w=22&h=22&fit=clip&auto=compress,format
+https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd105a9c0c38004bdc35f5ae0776e5fb7863401b5%2F796477_cross_delete_stop_x_icon.png?w=24&h=24&fit=clip&auto=compress,format
+https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fb1ff4a070d2c7a221695e2ca4931886137cf9747%2Ftick.png?w=24&h=24&fit=clip&auto=compress,format
+https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?w=22&h=22&fit=clip&auto=compress,format
+https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fe589886d4c4b47e3b0065c94b9aedc71ff188ee4%2FUntitled%20design%20%2814%29.png?w=22&h=22&fit=clip&auto=compress,format
+
+=== data- attribute names used ===
+data-countdown-config, data-countdown-delay-mode, data-countdown-id, data-countdown-mode, data-countdown-restart-mode, data-countdown-skin, data-countdown-skin-config, data-countdown-timezone-offset, data-downsell, data-id, data-index, data-offer, data-page, data-src, data-srcset
+
+=== noscript blocks ===
+  [0] <link rel="stylesheet" href="https://cdn.convertri.com/cdn.min.css?v=2026-09-16-13-12-03"/>

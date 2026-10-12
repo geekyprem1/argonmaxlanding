@@ -1,0 +1,98 @@
+=== FILE SIZE: 1956350 chars ===
+
+=== <script src> tags ===
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://launchpadjv.com/js/embed.js
+  https://cdn.convertri.com/jquery-1.12.2.min.js?v=2026-09-16-13-12-03
+
+=== <link rel=stylesheet> ===
+  https://fonts.googleapis.com/css2?family=Figtree:wght@500;700;800;900&display=swap
+  https://cdn.convertri.com/cdn.min.css?v=2026-09-16-13-12-03
+
+=== inline <script> count: 36
+  [0] var documentClassList=document.documentElement.classList;documentClassList&&documentClassList.remove('no-js')
+  [1] var CONVERTRI_CONSTANTS={UPSELL_EXPIRES_IN:7,CSS_PREFIX:'cvt-1568371626-',STICKY_PREFIX:'sticky-',PAGESET_IDENTIFIER:'b39285ba-b7e1-11f1-aea0-06d664cfaed9',AUTO
+  [2] var convertriParameters={"tabletModeWidth":2056,"mobilePageEnabled":!0,"facebookAppId":"","appServer":"https:\/\/app.convertri.com","assetUrlTemplate":"https:\/
+  [3] var ConvertriScriptConsent=(function(){var CONSENT_COOKIE_NAME='convertriScriptConsent';var REJECTION_COOKIE_NAME='convertriScriptRejection';var COOKIE_EXPIRES_
+  [4] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box8988e961-ec62-edbd-4e9b-dc56d5e22aee .cvt-1
+  [5] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box7c3ed24d-602e-4321-45b5-76b3f2da03ae .cvt-1
+  [6] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box64871f85-2e57-1126-ffcb-6d6ac33da625 .cvt-1
+  [7] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#boxdf258316-5f17-d809-8789-7d15c693b03c .cvt-1
+  [8] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!1,desktop:!0,};var htmlBox=document.querySelector('#box9694428b-65aa-b6de-b33b-f0805cd30514 .cvt-1
+  [9] const messages=[{name:"Caleb",city:"Dublin, Ireland",flag:"ie"},{name:"Mila",city:"Melbourne, Australia",flag:"au"},{name:"Jordan",city:"San Francisco, US",flag
+  [10] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#boxf4e7eb9a-b4ac-54e6-fe26-717c96fec7b8 .cvt-1
+  [11] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box3ca52bd8-126b-d869-8cd3-01449959160f .cvt-1
+  [12] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#boxee2b2c1d-d951-af6f-451f-5ae45890cf89 .cvt-1
+  [13] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#boxbc6b746b-8d79-0b16-92ad-fd471f04ba01 .cvt-1
+  [14] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box96addb6e-6e23-3533-426f-1b750548e252 .cvt-1
+  [15] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box3be40148-84d5-b795-310c-f71c391fb519 .cvt-1
+  [16] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box28dbc3b4-eb1d-be9d-ff5f-f87947f506a7 .cvt-1
+  [17] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box237f0025-5289-5981-21a0-aca059382454 .cvt-1
+  [18] (function(){const words=["Software","Books","Videos","Images","Songs","Graphics","Affiliate Websites","Sales Funnels","SEO Content","Movies","TikTok Shorts","Ki
+  [19] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#boxc67b2bff-6bf8-bd94-6b50-398d00318c01 .cvt-1
+  [20] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box098d43dd-b016-2b58-f7e3-589cfdec5574 .cvt-1
+  [21] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#boxd32a118b-94d7-4871-adf0-0bd4fb8aeb85 .cvt-1
+  [22] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#boxc6e537b8-884c-d7e3-7e5c-1c613f0f0dac .cvt-1
+  [23] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#box60b6e7c7-607e-b618-dc24-cfed7733c1c6 .cvt-1
+  [24] (function(){var maxMobileWidth=959;var boxVisibility={mobile:!0,desktop:!0,};var htmlBox=document.querySelector('#boxac92ef19-4e1b-4aee-2d14-a654461dbfe6 .cvt-1
+  [25] (function(){var tabs=Array.prototype.slice.call(document.querySelectorAll('.tv-tab'));var panels=Array.prototype.slice.call(document.querySelectorAll('.tv-panel
+  [26] var _cvt_gsi='b39285ba-b7e1-11f1-aea0-06d664cfaed9'
+  [27] var needsJQuery=(function(){var jQueryLib=null;var handlers=[];function needsJQuery(handler){if(jQueryLib){handler(jQueryLib)}else{handlers.push(handler)}} need
+  [28] var convertriLoadDeferredStyles=function(){var addStylesNode=document.getElementById('convertri-deferred-styles');var replacement=document.createElement('div');
+  [29] needsJQuery.ready(function($){var wrapperSelector='.page-section';manageIframesState($(wrapperSelector))});function manageIframesState(root){var boxSelector=uni
+  [30] needsJQuery.ready(function($){function genericBehaviorHandler(desktopSelector,mobileSelector,boxHandler){var selector=!MobileDetector.isMobile()?desktopSelector
+  [31] needsJQuery.ready(function($){var parentContainerSelector='.main-page';var elementBodySelector='.cvt-1568371626-element-body';var desktopContainers={"boxbfb6e30
+  [32] needsJQuery.ready(function($){var parentContainerSelector='#boxedc2cc39-81be-0621-9fc8-6ba8379aa853';var elementBodySelector='.cvt-1568371626-element-body';var 
+  [33] document.addEventListener('DOMContentLoaded', function () { // Disable right-click ONLY on images document.addEventListener('contextmenu', function(e) { if (e.t
+  [35] document.addEventListener("DOMContentLoaded",function(){yall()})
+
+=== <form> tags ===
+
+=== <img> count: 141
+  first 15 img srcs:
+    https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F9eb8f7118e81d0577a40b042a0277bc9a6af068e%2FChat%206.0%20Astra%20Logo%20BGLe
+    https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd27101bb1c3e3567f30db709e644df78bacf38b7%2F5f43810c-535d-11e6-829d-066a9bd5
+    https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd27101bb1c3e3567f30db709e644df78bacf38b7%2F5f43810c-535d-11e6-829d-066a9bd5
+    https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd27101bb1c3e3567f30db709e644df78bacf38b7%2F5f43810c-535d-11e6-829d-066a9bd5
+    https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fed8321646032070cddb255cf997061057c16d7ab%2F00%20JV%20%26%20FE%20Mockup.png
+    https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F9eb8f7118e81d0577a40b042a0277bc9a6af068e%2FChat%206.0%20Astra%20Logo%20BGLe
+    https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fe2364dda632ef6f5787ec4b51cfe39856b3e7bcb%2FGemini_Generated_Image_2q78qj2q7
+    https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fc6a51a67b0d9f2a3e68ecc69dce81f7f4f9f6dc3%2FUntitled%20design%20%288%29.pn
+    https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fc6a51a67b0d9f2a3e68ecc69dce81f7f4f9f6dc3%2FUntitled%20design%20%288%29.pn
+    https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fc6a51a67b0d9f2a3e68ecc69dce81f7f4f9f6dc3%2FUntitled%20design%20%288%29.pn
+    https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fb3b5f94bcae7c5b2b601a8cc82bb271143fba397%2FTM%2001.png?auto=compress,form
+    https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fa88e2482dc06dd981829201ec459213a92bba0a6%2FTM%2002.png?auto=compress,form
+    https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2F9e43a7f996624a57e6ded834ada09a1257dc9b3d%2Firculka%20%281%29.png?auto=com
+    https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fc6a51a67b0d9f2a3e68ecc69dce81f7f4f9f6dc3%2FUntitled%20design%20%288%29.pn
+    https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fed8321646032070cddb255cf997061057c16d7ab%2F00%20JV%20%26%20FE%20Mockup.png
+
+=== <iframe> tags ===
+  <iframe data-src="https://www.youtube.com/embed/gykrFGOaT3I?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;loop=0&amp;controls=1&amp;" id="yt-iframe-6cb10f67-d1e8-fe8c-c98f-94e9f64283dc" class=" cvt-1568371626-element-body c
+  <iframe data-src="https://www.youtube.com/embed/75MhPKUzxew?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;loop=0&amp;controls=1&amp;" id="yt-iframe-0bfc4daf-7bbf-d6f1-5dbf-ec5b7eaf20b1" class=" cvt-1568371626-element-body c
+  <iframe data-src="https://www.youtube.com/embed/pVYXv6-h0kU?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;loop=0&amp;controls=1&amp;" id="yt-iframe-8ce0d2bc-cf5b-a30b-c5d1-3b0c679b40da" class=" cvt-1568371626-element-body c
+  <iframe data-src="https://www.youtube.com/embed/wrG-rpPCoJI?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;loop=0&amp;controls=1&amp;" id="yt-iframe-2311d64f-627a-cb60-57da-9c2d927b894f" class=" cvt-1568371626-element-body c
+  <iframe data-src="https://www.youtube.com/embed/1D9qI9eLeFw?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;loop=0&amp;controls=1&amp;" id="yt-iframe-3b9cc76f-e937-0eeb-43a7-512235ea8d3e" class=" cvt-1568371626-element-body c
+  <iframe data-src="https://www.youtube.com/embed/kYlbCr3U89w?rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;loop=0&amp;controls=1&amp;" id="yt-iframe-db10ce63-2abc-264b-a6c5-86ae4c4cb180" class=" cvt-1568371626-element-body c
+
+=== body visible text (first 4000 chars) ===
+Get Started With This Revolutionary New Software Today... | HURRY! | Free Commercial License Expires In… | Log In To The Chat 6.0 Astra Cloud-Based Dashboard | Step #1 | (There is NOTHING for you to set up or configure. We have handled the API integrations, the server load balancing, and the interface design. Hosting is included, and our "All-in-One" AI generator is already waiting for you inside. You simply log in from any device—Mac, PC, Tablet, or Phone.) | Insert Your Text Prompts & Feed It To Our "All-In-One" ChatGPT PRO AI Generator | Step #2 | (Whether you need Python code for a trading bot, a jazz track for a background video, a cinematic trailer for a new product, or a bestselling book—just ask. You can be as vague or as specific as you want. The "DeepResearch" module parses your request, understands the context, and determines the best model to execute the task.) | Watch Chat 6.0 Astra Turn Your Prompts Into Reality | Step #3 | (It only takes seconds and you can choose from over 72+ OpenAI models, including Sol 6, Luna 6, ChatGPT Images 2.5, GPT Audio & more.) | Let&#039;s Review: Here&#039;s Exactly What You&#039;re Getting Today: | Brand New "Do-It-All" AI Platform Powered By OpenAI&#039;s Engine - | Value $2,400! | Get Unlimited Access To OpenAI’s BEST AIs (72 Different Models Included) - | Value $2,400! | One-Time Fee Unlocks “ChatGPT PRO” Plan That’s Normally $200/month - | Value $2,400! | ChatGPT 6 Astra For The World’s Best & Fastest 24/7 Virtual Assistant - | Value $2,400! | ChatGPT Images 2.5 PRO For Unlimited Image Editing And Generation - | Value $997! | Codex For The Best Possible Software & Games Creation (Currently Writes Better Code Than 70% Of Human Programmers) - | Value $997! | Sol 6 & Luna 6 For Advanced Book, Essay, And Article Writing - | Value $997! | GPT Audio For Creating Human-Sounding Music With Lyrics And Instruments - | Value $997! | RealTime Builds An Affiliate Website From Scratch Using Nothing But Your Voice - | Value $997! | Whisper For Turning A Spoken Prompt Into A Video, Software, Or Book - | Value $997! | Hooks Straight Into LaunchPad, ClickBank, Warrior+, JVZoo & 17x More Platforms - | Value $997! | Even Comes With YouTube Premium (No Ads) And Over 30TB Of Storage - | Value $997! | Generate Human-Like Crisp & Clear Answers To Complex Questions In Real-Time - | Value $497! | Create Stunning Websites, Landing Pages & Sales Funnels - | Value $497! | Craft High-Converting Marketing Materials Like Sales & Video Scripts, Email Swipes & More - | Value $497! | Generate Stunning Graphics, Cartoons, Animations, Art, Social Media Pics, You Name It - | Value $497! | Achieve No. 1 Rankings In Google For Any Keyword - | Value $497! | Write Entire Books (Fiction, Non-Fiction, Kids, Coloring, Etc.) - | Value $497! | Publish Entire Video Games, SaaS, Or Mobile Apps - | Value $497! | Generate Music With Lyrics And Instruments, Even Music Videos - | Value $497! | Built-In Siri-Like Voice Command Technology - | Value $497! | Automate Repetitive Routine Tasks Using AI Power - | Value $497! | Use The Translation Module & Let The App Solve Complex Math Problems - | Value $497! | Commercial License Included: Start Your Own Professional Content Creation Agency & Keep ALL The Profits - | Value $997! | One‑Time Payment Only… NO Monthly Fees Ever - | Value $497! | No Experience Needed – Just Tell The AI What You Want & It Does The Rest - | Value $297! | No Installation Required: Fully Cloud-Based Software Compatible With All Devices: Mac, PC, Phone, Tablets - | Value $297! | Built-In Step-By-Step Training & 24/7 Support Included - | Value $497! | 30-Day Money-Back Guarantee! | Guaranteed Or Your Money Back | 100% RISK FREE | If you are a beginner or a seasoned marketer, and if you commit to and follow this software, then you will start to enjoy the luxury of 100% passive sales, automated FREE traffic, and a stress-free lifestyle. | Get Chat 6.0 Astra now and enjoy it for 30 Days. | In the unlikely event you’
+
+
+=== first 1500 chars of <body> opening ===
+<div id="modal-checkout"></div><div class="cvt-1568371626-main-page-background"></div><div class="main-page page-section funnel-entry-page"><div class=" cvt-1568371626-box d0 d296 m0 m1 m273 m274 " id="boxbfb6e302-3444-b2d5-69f0-ebc4226e30ff"><div class=" cvt-1568371626-element-body lazy-bg c0 c1 c2 c3 c4 c5 c6 c64 lazy-bg no-lazy-bg-mobile " title=""></div></div><div class=" cvt-1568371626-box d190 d297 d298 m25 m74 m275 " id="box4be1ce60-eb88-7ef6-8945-a8522834c495"><div class=" cvt-1568371626-element-body lazy-bg c0 c1 c2 c3 c4 c10 c12 c64 lazy-bg no-lazy-bg-mobile " title=""></div><img class=" cvt-1568371626-element-body c0 c1 c2 c3 c4 c10 c12 c64 cvt-1568371626-image-element lazy-bg no-lazy-bg-mobile " data-src="https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F9eb8f7118e81d0577a40b042a0277bc9a6af068e%2FChat%206.0%20Astra%20Logo%20BGLess.png" data-srcset=" https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F9eb8f7118e81d0577a40b042a0277bc9a6af068e%2FChat%206.0%20Astra%20Logo%20BGLess.png 1x , https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F9eb8f7118e81d0577a40b042a0277bc9a6af068e%2FChat%206.0%20Astra%20Logo%20BGLess.png 2x " alt=""></div><div class=" cvt-1568371626-box d113 d299 d300 m3 m4 m72 m276 " id="box64ae2b08-0909-3075-cdcc-3740c8e4cc18"><div class=" cvt-1568371626-element-body lazy-bg c0 c1 c2 c3 c4 c10 c12 c64 "><div class="te-scope te-scope-desktop d12 m11"><p class="d13 d14 d15 d16 d17 d18 d19 d29 m12 m13 m14 m15 m1
+
+=== body classes: 
+=== html id: cvt-1568371626-html-root

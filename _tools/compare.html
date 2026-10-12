@@ -1,0 +1,54 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>compare</title>
+<body style="margin:0;background:#111;color:#eee;font:13px/1.5 monospace">
+<div id="out" style="padding:10px 14px">loading…</div>
+<script>
+const params = new URLSearchParams(location.search);
+const a = params.get("a");
+const b = params.get("b");
+const thr = +(params.get("t") || 30);
+let out;
+Promise.all([load(a), load(b)]).then(([ia, ib]) => {
+  const w = ia.width, h = ia.height;
+  out = document.getElementById("out");
+  if (ib.width !== w || ib.height !== h) {
+    out.textContent = "SIZE MISMATCH: " + w + "x" + h + " vs " + ib.width + "x" + ib.height;
+    window.__result = { mismatch: true, aSize: [w, h], bSize: [ib.width, ib.height] };
+    return;
+  }
+  const ca = document.createElement("canvas"), cb = document.createElement("canvas");
+  ca.width = cb.width = w; ca.height = cb.height = h;
+  const xa = ca.getContext("2d", { willReadFrequently: true });
+  const xb = cb.getContext("2d", { willReadFrequently: true });
+  xa.drawImage(ia, 0, 0); xb.drawImage(ib, 0, 0);
+  const da = xa.getImageData(0, 0, w, h).data, db = xb.getImageData(0, 0, w, h).data;
+  let diffPx = 0;
+  const total = w * h;
+  const diff = document.createElement("canvas");
+  diff.width = w; diff.height = h;
+  const xd = diff.getContext("2d");
+  const img = xd.createImageData(w, h), dd = img.data;
+  for (let i = 0; i < da.length; i += 4) {
+    const d = Math.abs(da[i] - db[i]) + Math.abs(da[i + 1] - db[i + 1]) + Math.abs(da[i + 2] - db[i + 2]);
+    if (d > thr) { diffPx++; dd[i] = 255; dd[i + 1] = 40; dd[i + 2] = 40; dd[i + 3] = 255; }
+    else { dd[i] = 20; dd[i + 1] = 20; dd[i + 2] = 20; dd[i + 3] = 255; }
+  }
+  xd.putImageData(img, 0, 0);
+  document.body.appendChild(diff);
+  const pct = (diffPx / total * 100).toFixed(2);
+  out.textContent = a + "  vs  " + b + "  =>  diff " + diffPx + " px / " + total + " = " + pct + "%  (threshold " + thr + ")";
+  window.__result = { diffPx, total, pct: +pct, w, h };
+}).catch(e => {
+  document.getElementById("out").textContent = "ERROR: " + e;
+  window.__result = { error: String(e) };
+});
+function load(src) {
+  return new Promise((res, rej) => {
+    const im = new Image();
+    im.onload = () => res(im);
+    im.onerror = () => rej(new Error("failed to load " + src));
+    im.src = src;
+  });
+}
+</script>

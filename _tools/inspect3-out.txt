@@ -1,0 +1,142 @@
+=========== cdn.convertri.com URLs ===========
+https://cdn.convertri.com/font-awesome/font-awesome.woff2?v=4.7.0
+https://cdn.convertri.com/font-awesome/font-awesome.eot?#iefix&v=4.7.0
+https://cdn.convertri.com/font-awesome/font-awesome.woff?v=4.7.0
+https://cdn.convertri.com/font-awesome/font-awesome.ttf?v=4.7.0
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F9eb8f7118e81d0577a40b042a0277bc9a6af068e%2FChat%206.0%20Astra%20Logo%20BGLess.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F74fb2dbb5fe8d94ff7d9c75e31dfe44144340d59%2FBG-1.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd27101bb1c3e3567f30db709e644df78bacf38b7%2F5f43810c-535d-11e6-829d-066a9bd5fb79_11a588f761ecd4c36bd0da86bd62bf837afb29f2_steps_desktop.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fed8321646032070cddb255cf997061057c16d7ab%2F00%20JV%20%26%20FE%20Mockup.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F5ee4153890fc719c0f4d39213d017730183a8b98%2F18711274_v1030-074.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F3e3b37e363813d4ddba012f014501a3915464f3c%2FBG4.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fe2364dda632ef6f5787ec4b51cfe39856b3e7bcb%2FGemini_Generated_Image_2q78qj2q78qj2q7.jpeg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F782e0f7f5f0b8acdba7053092985d060f3d580e4%2F2.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fc0d71812aed250e98b90ac5870241c7c5ccec298%2FBG4.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F949acdf7636f2c6bde71e9177a8b54d9672139b7%2Fbg_white1.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F5692d1a3dfad3c8a83db7a7a430c0ece73dbfb69%2Fsl_032421_41660_19.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fcc4979d6bea20d9b484f47eebc3901355a4ff966%2F72ea7057-9605-4eb7-b807-baa1ca1b4458.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F2378222133f1ecbd6a7ecdf5faf7eca4864d7705%2F796477_cross_delete_stop_x_icon%20%281%29.png
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F08df1c45bd9cdc4e822fa545c132dbb59357d94d%2FBC%2001.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F2f2d0f79cde98f255e7e162b373455ccea5f8d71%2FBC%2002.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F5743d764b5d579c39c37b094129c0b3fc0bc93ea%2FBC%2003.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fb77dde692a055dafaf5e188e4187059bc7bdef2d%2FBC%2004.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F953e32aa1ffc7089e85e4d6f0f6f773c389a302d%2FBC%2005.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fdd308848b4643a7b5540d13c3dc7d90575a601e7%2FBC%2006.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Ffa14519d8ad6e38547309589dac9f09339485390%2FBC%2007.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd6b151e2965afc376ea0a286f4012a3dd6b7da8a%2FBC%2008.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd6a3337f171ca441cec93ec76e05fbbad37a3bd4%2FBC%2009.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F427c9e002b1b10ae48143ec8a2a3daf9c86649ba%2FBC%2010.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F02a732cafb073fa12a6e8ea1c874d4936403167a%2FBC%2011.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fa75ece3bdeadba090c956649366ae6a3c123fc6d%2FBC%2012.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fdc61e7698eb15893d52fd4b5321e2d4cfe9093b0%2FChat%206%20Astra%20Bonus%2001.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fa4bead4ff8b524c5efee6e637fa770370a5c3bec%2FChat%206%20Astra%20Bonus%2002.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F5704e39b451551dbcaa1bd2e5ce64c7796679c91%2FChat%206%20Astra%20Bonus%2003.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2F4ec1287ca8ecf9dd4a188750c42d0c3c5cec226c%2FChat%206%20Astra%20Bonus%2004.jpg
+https://cdn.convertri.com/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fc2a9b9cc33dd00257bafdd7097914c80d47bb6ba%2FChat%206%20Astra%20Bonus%2005.jpg
+https://cdn.convertri.com/cdn.min.css?v=2026-09-16-13-12-03
+https://cdn.convertri.com/jquery-1.12.2.min.js?v=2026-09-16-13-12-03
+
+=========== fonts.googleapis context ===========
+--- "fonts.googleapis.com/css" @111875
+d2c7a221695e2ca4931886137cf9747%2Ftick.png?w=24&h=24&fit=clip&auto=compress,format); } } /* https://fonts.googleapis.com/css?family=Figtree%3A300%2C400%2C500%2C600%2C700%2C800%2C900%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CBe+Vietnam+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2Citalic%2C500%2C500
+--- "fonts.googleapis.com/css" @1450958
+pans):exit(spans));wordIndex=(wordIndex+1)%words.length}}\nrun()})()</script><style>@import "https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap";#sh-wrapper{display:flex;justify-content:center;align-items:center;width:100%;height:100%;overflow:hidden;background:transparent;border-radius:inherit}html,body{background:transparent}#sh-box{font-fa
+--- "fonts.googleapis.com/css" @1584821
+leapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;700;800;900&display=swap" rel="stylesheet"><style>.tv-wrapper,.tv-wrapper *{box-sizing:border-box !important;margin:0;padding:0}.tv-wrapper{width:100% !important;max-width:1060px !important;margin:0 auto !impor
+
+=========== gstatic context ===========
+--- "fonts.gstatic.com/s" @112374
+amily: 'Be Vietnam Pro'; font-style: italic; font-weight: 100; src: url(https://fonts.gstatic.com/s/bevietnampro/v12/QdVLSTAyLFyeg_IDWvOJmVES_HwyPRsiYpgj.ttf) format('truetype'); } @font-face {font-di
+--- "fonts.gstatic.com/s" @112593
+amily: 'Be Vietnam Pro'; font-style: italic; font-weight: 200; src: url(https://fonts.gstatic.com/s/bevietnampro/v12/QdVKSTAyLFyeg_IDWvOJmVES_HwyPbczdb8Dcg.ttf) format('truetype'); } @font-face {font-
+--- "fonts.gstatic.com/s" @112814
+amily: 'Be Vietnam Pro'; font-style: italic; font-weight: 300; src: url(https://fonts.gstatic.com/s/bevietnampro/v12/QdVKSTAyLFyeg_IDWvOJmVES_HwyPdMwdb8Dcg.ttf) format('truetype'); } @font-face {font-
+
+=========== needsJQuery = definition ===========
+--- "var needsJQuery=" @1602106
+11f1-aea0-06d664cfaed9'</script><script>var needsJQuery=(function(){var jQueryLib=null;var handlers=[];function needsJQuery(handler){if(jQueryLib){handler(jQueryLib)}else{handlers.push(handler)}}\nneedsJQuery.ready=function(handler){var onDomReady=function(){handler(jQueryLib)};needsJQuery(function($){$(onDomReady)})};needsJQuery.loaded=function(jQuery){jQueryLib=jQuery;while(handlers.length){handlers.shift()(jQueryLib)}};return needsJQuery})()</script><noscript id="convertri-deferred-styles"><link rel="stylesheet" href="https://cdn.convertri.com/cdn.min.css?v=2026-09-16-13-12-03"/></noscript><script>var convertriLoadDeferredStyles=function(){var addStylesNode=document.getElementById('convertri-deferred-styles');var replacement=doc
+
+=========== yall ===========
+--- "yall" @1956319
+ansform;\n}\n</style><script></script><script>document.addEventListener("DOMContentLoaded",function(){yall()})</script></body></html>
+
+=========== countdown attr sample ===========
+--- "data-countdown-id" @1273049
+ss=" d21 d24 d30 d86 d87 m20 m23 m31 m279"> Free Commercial License Expires In…</span></p></div></div></div><div class=" cvt-1568371626-box d64 d306 m3 m4 m281 " id="box7f98045e-c2da-9eea-3d8e-970157bda751"><div class=" cvt-1568371626-element-body lazy-bg c0 c1 c2 c3 c4 c10 c12 c64 " data-countdown data-countdown-id="7f98045e-c2da-9eea-3d8e-970157bda751" data-countdown-mode="Restart" data-countdown-skin="simple" data-countdown-restart-mode="hour" data-countdown-timezone-offset="-480" data-countdown-delay-mode="" data-countdown-config="{&quot;onExpiry&quot;:2,&quot;redirectUrl&quot;:null,&quot;passUrlParameters&quot;:true}" data-countdown-skin-config="{&quot;numColumns&quot;:4,&quot;showLabel
+--- "data-countdown-id" @1754414
+ion getEndAtCookie(element){return getCookie(getEndAtCookieName(element))}\nfunction setEndAtCookie(element,value,expires){var cookie=getEndAtCookieName(element)+'='+value+';path='+location.pathname+';expires='+expires;document.cookie=cookie}\nfunction getEndAtCookieName(element){return element.attr('data-countdown-id').replace(/-/g,'')}\nfunction getVisitAtCookieName(element){return getEndAtCookie(element)+'_visit_at'}\nfunction getVisitCookie(element){return getCookie(getVisitAtCookieName(element))}\nfunction setVisitCookie(element,value,expires){var cookie=getVisitAtCookieName(element)+'='+value+';path='+location.pathname+';expires='+expires;document.cookie=cookie}\nfunction getHasPausedCookieN
+
+=========== countdown script ===========
+--- "countdown" @1273039
+8e-970157bda751"><div class=" cvt-1568371626-element-body lazy-bg c0 c1 c2 c3 c4 c10 c12 c64 " data-countdown data-countdown-id="7f98045e-c2da-9eea-3d8e-970157bda751" data-countdown-mode="Restart" data-countdown-skin="simple" data-countdown-restart-mode="hour" data-countdown-timezone-offset="-480" d
+--- "countdown" @1273054
+"><div class=" cvt-1568371626-element-body lazy-bg c0 c1 c2 c3 c4 c10 c12 c64 " data-countdown data-countdown-id="7f98045e-c2da-9eea-3d8e-970157bda751" data-countdown-mode="Restart" data-countdown-skin="simple" data-countdown-restart-mode="hour" data-countdown-timezone-offset="-480" data-countdown-d
+--- "countdown" @1273111
+c2 c3 c4 c10 c12 c64 " data-countdown data-countdown-id="7f98045e-c2da-9eea-3d8e-970157bda751" data-countdown-mode="Restart" data-countdown-skin="simple" data-countdown-restart-mode="hour" data-countdown-timezone-offset="-480" data-countdown-delay-mode="" data-countdown-config="{&quot;onExpiry&quot;
+--- "countdown" @1273141
+untdown data-countdown-id="7f98045e-c2da-9eea-3d8e-970157bda751" data-countdown-mode="Restart" data-countdown-skin="simple" data-countdown-restart-mode="hour" data-countdown-timezone-offset="-480" data-countdown-delay-mode="" data-countdown-config="{&quot;onExpiry&quot;:2,&quot;redirectUrl&quot;:nul
+--- "countdown" @1273170
+98045e-c2da-9eea-3d8e-970157bda751" data-countdown-mode="Restart" data-countdown-skin="simple" data-countdown-restart-mode="hour" data-countdown-timezone-offset="-480" data-countdown-delay-mode="" data-countdown-config="{&quot;onExpiry&quot;:2,&quot;redirectUrl&quot;:null,&quot;passUrlParameters&quo
+--- "countdown" @1273205
+ data-countdown-mode="Restart" data-countdown-skin="simple" data-countdown-restart-mode="hour" data-countdown-timezone-offset="-480" data-countdown-delay-mode="" data-countdown-config="{&quot;onExpiry&quot;:2,&quot;redirectUrl&quot;:null,&quot;passUrlParameters&quot;:true}" data-countdown-skin-confi
+--- "countdown" @1273243
+untdown-skin="simple" data-countdown-restart-mode="hour" data-countdown-timezone-offset="-480" data-countdown-delay-mode="" data-countdown-config="{&quot;onExpiry&quot;:2,&quot;redirectUrl&quot;:null,&quot;passUrlParameters&quot;:true}" data-countdown-skin-config="{&quot;numColumns&quot;:4,&quot;sho
+--- "countdown" @1273272
+untdown-restart-mode="hour" data-countdown-timezone-offset="-480" data-countdown-delay-mode="" data-countdown-config="{&quot;onExpiry&quot;:2,&quot;redirectUrl&quot;:null,&quot;passUrlParameters&quot;:true}" data-countdown-skin-config="{&quot;numColumns&quot;:4,&quot;showLabels&quot;:true,&quot;show
+
+=========== facebook/pixel/gtag ===========
+--- "facebook" @1264354
+<script>var convertriParameters={"tabletModeWidth":2056,"mobilePageEnabled":!0,"facebookAppId":"","appServer":"https:\/\/app.convertri.com","assetUrlTemplate":"https:\/\/cdn.convertri.com\/{assetPath}?v=2026-09-16-13-12-03","formA
+--- "gtag": not found
+--- "pixel" @164921
+a only screen and (max-width:360px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width:360px) and (min-resolution: 192dpi), only screen and (max-width:360px) and (
+--- "pixel" @165696
+-width:361px) and (max-width:767px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width:361px) and (max-width:767px) and (min-resolution: 192dpi), only screen and (
+--- "pixel" @166515
+-width:768px) and (max-width:959px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width:768px) and (max-width:959px) and (min-resolution: 192dpi), only screen and (
+--- "pixel" @167223
+a only screen and (min-width:960px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width:960px) and (min-resolution: 192dpi), only screen and (min-width:960px) and (
+--- "pixel" @168076
+a only screen and (min-width:960px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width:960px) and (min-resolution: 192dpi), only screen and (min-width:960px) and (
+
+=========== bootstrap / css links in head ===========
+--- "<link" @110
+><title>Chat 6.0 Astra | Regular</title><link rel="canonical" href="https://chat60astra.com/regular"><link href="https://cdn.convertri.com/font-awesome/font-awesome.woff2?v=4.7.0" as="font" type="font/woff2" crossorigin="anonymous"><meta id
+--- "<link" @171
+ href="https://chat60astra.com/regular"><link href="https://cdn.convertri.com/font-awesome/font-awesome.woff2?v=4.7.0" as="font" type="font/woff2" crossorigin="anonymous"><meta id="viewport-meta" name="viewport" content="width=device-width"
+--- "<link" @372
+"viewport" content="width=device-width"><link rel="shortcut icon" type="image/png" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?
+--- "<link" @617
+compress%2Cformat&fit=clip&w=48&fm=png"><link rel="apple-touch-icon" sizes="57x57" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?
+--- "<link" @862
+compress%2Cformat&fit=clip&w=57&fm=png"><link rel="apple-touch-icon" sizes="60x60" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?
+--- "<link" @1107
+compress%2Cformat&fit=clip&w=60&fm=png"><link rel="apple-touch-icon" sizes="72x72" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?
+--- "<link" @1352
+compress%2Cformat&fit=clip&w=72&fm=png"><link rel="apple-touch-icon" sizes="76x76" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?
+--- "<link" @1597
+compress%2Cformat&fit=clip&w=76&fm=png"><link rel="apple-touch-icon" sizes="114x114" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.pn
+--- "<link" @1845
+ompress%2Cformat&fit=clip&w=114&fm=png"><link rel="apple-touch-icon" sizes="120x120" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.pn
+--- "<link" @2093
+ompress%2Cformat&fit=clip&w=120&fm=png"><link rel="apple-touch-icon" sizes="144x144" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.pn
+--- "<link" @2341
+ompress%2Cformat&fit=clip&w=144&fm=png"><link rel="apple-touch-icon" sizes="152x152" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.pn
+--- "<link" @2589
+ompress%2Cformat&fit=clip&w=152&fm=png"><link rel="apple-touch-icon" sizes="167x167" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.pn
+--- "<link" @2837
+ompress%2Cformat&fit=clip&w=167&fm=png"><link rel="apple-touch-icon" sizes="180x180" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.pn
+--- "<link" @3085
+ompress%2Cformat&fit=clip&w=180&fm=png"><link rel="icon" type="image/png" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?auto=comp
+--- "<link" @3335
+mat&fit=clip&w=16&fm=png" sizes="16x16"><link rel="icon" type="image/png" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?auto=comp
+--- "<link" @3585
+mat&fit=clip&w=32&fm=png" sizes="32x32"><link rel="icon" type="image/png" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?auto=comp
+--- "<link" @3835
+mat&fit=clip&w=96&fm=png" sizes="96x96"><link rel="icon" type="image/png" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?auto=comp
+--- "<link" @4088
+&fit=clip&w=192&fm=png" sizes="192x192"><link rel="icon" type="image/png" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?auto=comp
+--- "<link" @4341
+&fit=clip&w=194&fm=png" sizes="194x194"><link rel="icon" type="image/png" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?auto=comp
+--- "<link" @4594
+&fit=clip&w=196&fm=png" sizes="196x196"><link rel="icon" type="image/png" href="https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?auto=comp

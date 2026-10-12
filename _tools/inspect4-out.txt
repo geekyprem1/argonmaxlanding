@@ -1,0 +1,58 @@
+=== '.lazy-bg-loaded' occurrences: 1941
+=== ':not(.lazy-bg-loaded)': 0
+
+--- samples of selectors containing background-image:url(http ---
+50% + 21px); top:644px; } .d676::before { content:"\00a0"; display:inline-block; background-repeat:no-repeat; background-position:center; background-size:cover; margin-right:8px; font-family:'Figtree', sans-serif; position:relative; top:0px; } .d677::before { background-image:url(https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b
+........
+829d-066a9bd5fb79%2Fd99e49880b99c68a150020f561e3999b4544f057%2Ff58c96d9-5e3b-4e3b-891a-21d219f452e5.png?w=22&h=22&fit=clip&auto=compress,format); } .d678::before { width:22px; height:22px; margin-left:-30px; font-size:22px; line-height:22px; } .d679::before { background-image:url(https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fe589886d4c4b47e3b0065c94b9aedc71
+........
+line-height:22px; } .d679::before { background-image:url(https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fe589886d4c4b47e3b0065c94b9aedc71ff188ee4%2FUntitled%20design%20%2814%29.png?w=22&h=22&fit=clip&auto=compress,format); } .d680::before { background-image:url(https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2F3c7c0427fa71f6591a1fc0ebd53c9f47
+........
+&h=22&fit=clip&auto=compress,format); } .d680::before { background-image:url(https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2F3c7c0427fa71f6591a1fc0ebd53c9f477b6c1d60%2Ftickmark.png?w=22&h=22&fit=clip&auto=compress,format); } .d681::before { background-image:url(https://convertri.imgix.net/5f43810c-535d-11e6-829d-066a9bd5fb79%2Fd105a9c0c38004bdc35f5ae0776e5fb7
+........
+
+=== script [2] convertriParameters (full) ===
+var convertriParameters={"tabletModeWidth":2056,"mobilePageEnabled":!0,"facebookAppId":"","appServer":"https:\/\/app.convertri.com","assetUrlTemplate":"https:\/\/cdn.convertri.com\/{assetPath}?v=2026-09-16-13-12-03","formApiServer":"https:\/\/form.convertri.com","pageId":"b82f7bb2-b7e1-11f1-aea0-06d664cfaed9","accountId":"5f43810c-535d-11e6-829d-066a9bd5fb79","accountType":"AGENCY","accountCurrency":"usd","form":null,"cart":{"mode":"live","productId":0,"ccStatementMessage":"","isOneClickUpsell":!1,"checkout":{"enabled":!1,"mode":"live","checkout":{"title":"Checkout","logo":null,"skin":"fresh","orderHeading":"Your Order","shippingHeading":"Shipping","taxHeading":"Tax","callToAction":"Pay by debit or credit card","totalLabel":"Total","stepOneTitle":"Step 1 of 2","stepOneDescription":"Step 1 description","stepTwoTitle":"Step 2 of 2","stepTwoDescription":"Step 2 description","textBelowButton":"Text Below Button","storeAllowAdjustQuantity":!0,"storeShowRelatedProducts":!1},"addresses":{"requiredAddress":null,"isPrimaryDeliveryAddress":!1,"billingAddressHeading":"Billing Address","address1Label":"Street Address","address2Label":"Address Line 2","cityLabel":"City","stateLabel":"State \/ R
+
+=== search: createElement('script') / loadScript / document.write ===
+  createElement('script'): 1
+  createElement("script"): 0
+  loadScript: 0
+  document.write: 0
+  appendChild: 11
+
+=== context around appendChild/script-creation ===
+t.preventDefault();play($iframe)})}\nfunction play($iframe){$iframe.attr('src',$iframe.data('src'));var muted=$iframe.hasClass('muted');var onReady=function(){if(muted){player.mute()}\nplayer.playVideo();$iframe.prev().hide();$iframe.show()};var player=new YT.Player($iframe.attr('id'),{playerVars:{'autoplay':1,'playsinline':1},events:{onReady:onReady,},})}\nfunction initApi(onReady){var tag=document.createElement('script');tag.src='https://www.youtube.com/iframe_api';var firstScriptTag=document.getElementsByTagName('script')[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);tag.onload=function(){YT.ready(onReady)}}});needsJQuery.ready(function($){var wrapperSelector='.page-section';var startVisibleScrollableLayers=$(wrapperSelector).find('.layer-scrollable:visible');if(startVisibleScrollableLayers.length){$('body').addClass('no-scroll')}});function manageLayerScrollbars(layer){var $layer=$(layer);var isScrollableLayer=$layer.hasClass('layer-scrollable');if(!isScrollableLayer){
+
+=== unique hrefs (non # / javascript / mailto) ===
+  (7x) https://chat60astra.com/regular/ds
+  (1x) https://mjm.convertri.com/refundpolicy
+  (1x) https://mjm.convertri.com/earningsdisclaimer
+  (1x) https://mjm.convertri.com/privacypolicy
+  (1x) https://mjm.convertri.com/termsofuse
+  (1x) https://mjm.convertri.com/affiliatecompensation
+  (1x) https://mjm.convertri.com/anti-spam
+  (1x) https://help.serapiscode.com/login
+
+=== data-offer / data-page / data-downsell samples ===
+-1568371626-html-box');var width=document.documentElement.clientWidth;if((width<=maxMobileWidth&&!boxVisibility.mobile)||(width>maxMobileWidth&&!boxVisibility.desktop)){htmlBox.outerHTML=htmlBox.outerHTML.split(htmlBox.innerHTML).join('')}})()</script><div class="forgeContainer" data-downsell="off" data-offer="558" data-page="4655" data-id="5519"></div><script src="https://launchpadjv.com/js/embed.js"></script></div></div><div class=" cvt-1568371626-box d303 d304 m3 m4 m278 " id="box7a98d2d0-732b-d709-16b2-003eb68487a6"><div class=" cvt-1568371626-element-body lazy-bg c0 c4 c10 c29 c30 c44 c64
+
+=== '<button' count: 0  | '<input' count: 0  | '<select' count: 0  | '<textarea' count: 0
+
+=== head <script src> full tags ===
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://launchpadjv.com/js/embed.js">
+  <script src="https://cdn.convertri.com/jquery-1.12.2.min.js?v=2026-09-16-13-12-03" defer="defer">

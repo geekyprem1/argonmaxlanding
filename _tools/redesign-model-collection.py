@@ -1,0 +1,13 @@
+from pathlib import Path
+p=Path('index.html');s=p.read_text(encoding='utf-8');i=s.index('<div class="am-model-access"');j=s.index('<div class="am-opportunities"',i)
+new='''<div class="am-ai-collection" aria-labelledby="am-collection-title">
+      <div class="am-collection-heading"><div><p class="am-collection-kicker">INSIDE YOUR ARGONMAX WORKSPACE</p><h2 id="am-collection-title">One studio. A whole team of AI.</h2></div><span class="am-collection-note">Your ideas have backup.</span></div>
+      <div class="am-engine-layout">
+        <div class="am-core-engine"><span class="am-engine-label">THE MAIN ENGINE</span><span class="am-core-symbol" aria-hidden="true">✦</span><h3>Gemini <span>4.0 Argon</span></h3><p>The AI at the heart of ArgonMAX.<br>Start here. Bring your ideas to life.</p><span class="am-core-foot">YOUR WORKSPACE STARTS WITH ARGON <span aria-hidden="true">↗</span></span></div>
+        <div class="am-supporting-models"><p class="am-support-heading">More Gemini models, ready when you are.</p><ul><li><span class="am-model-dot am-dot-blue" aria-hidden="true"></span><span><small>GEMINI</small><b>3.8 Flash</b></span><span class="am-model-arrow" aria-hidden="true">↗</span></li><li><span class="am-model-dot am-dot-purple" aria-hidden="true"></span><span><small>GEMINI</small><b>3.7 Flash</b></span><span class="am-model-arrow" aria-hidden="true">↗</span></li><li><span class="am-model-dot am-dot-cyan" aria-hidden="true"></span><span><small>GEMINI</small><b>3.6 Google</b></span><span class="am-model-arrow" aria-hidden="true">↗</span></li><li class="am-model-library"><span class="am-library-icon" aria-hidden="true">＋</span><span><small>THE GEMINI COLLECTION</small><b>All future &amp; previous models</b></span></li></ul></div>
+      </div>
+      <div class="am-extra-models"><div class="am-extra-heading"><h3>More minds. <span>Same workspace.</span></h3><p>Three extra AI models. Included free.</p></div><ul><li class="am-extra-opus"><span class="am-extra-monogram" aria-hidden="true">O</span><div><small>FREE BONUS</small><b>Claude Opus 5.5</b></div><span class="am-extra-plus" aria-hidden="true">＋</span></li><li class="am-extra-fable"><span class="am-extra-monogram" aria-hidden="true">F</span><div><small>FREE BONUS</small><b>ClaudeFable 5.1</b></div><span class="am-extra-plus" aria-hidden="true">＋</span></li><li class="am-extra-astra"><span class="am-extra-monogram" aria-hidden="true">A</span><div><small>FREE BONUS</small><b>GPT-6 Astra</b></div><span class="am-extra-plus" aria-hidden="true">＋</span></li></ul></div>
+    </div>
+    '''
+p.write_text(s[:i]+new+s[j:],encoding='utf-8')
+p=Path('assets/argon-hero.css');s=p.read_text(encoding='utf-8');s=s[:s.index('.am-model-access')];p.write_text(s,encoding='utf-8')
